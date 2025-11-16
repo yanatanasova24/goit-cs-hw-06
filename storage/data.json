@@ -1,0 +1,32 @@
+[
+    {
+        "username": "Nickname",
+        "message": "Some message",
+        "date": "2025-11-16T13:47:39.981471"
+    },
+    {
+        "username": "NewNickname",
+        "message": "New message",
+        "date": "2025-11-16T14:02:42.416523"
+    },
+    {
+        "username": "nickname2",
+        "message": "New message",
+        "date": "2025-11-16T14:45:44.671587"
+    },
+    {
+        "username": "nickname3",
+        "message": "New message 3",
+        "date": "2025-11-16T14:54:00.409274"
+    },
+    {
+        "username": "nickname4",
+        "message": "Message 4",
+        "date": "2025-11-16T14:55:56.937984"
+    },
+    {
+        "username": "nickname5",
+        "message": "Message 5",
+        "date": "2025-11-16T14:57:30.441939"
+    }
+]

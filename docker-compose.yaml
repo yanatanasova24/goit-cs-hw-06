@@ -1,0 +1,32 @@
+# version: "3.8"
+services:
+  webapp:
+    build: .
+    container_name: webapp
+    ports:
+      - "3000:3000" 
+      - "5001:5000"
+    depends_on:
+      - mongo
+    volumes:
+      - .:/app
+    networks:
+      - webnet
+
+  mongo:
+    image: mongo:6.0
+    container_name: mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - webnet
+
+volumes:
+  mongo_data:
+
+networks:
+  webnet:
+    driver: bridge
